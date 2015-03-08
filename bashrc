@@ -1,9 +1,5 @@
 
-alias root="sudo -s"
-alias xe="open -a Xcode"
-alias ll="/Users/gabadie/git/insa.qg536/ll.py"
-alias e="vim"
-alias ge="open -a Vim.app"
+alias ll="ls -lhAGL"
 alias sshovh="ssh studentd@ftp.cluster015.ovh.net"
 alias s="grep -R --color"
 
@@ -12,4 +8,7 @@ PROMPT_COLOR_ROOT="\033[31m";
 PROMPT_COLOR_GIT="\033[32m";
 PROMPT_COLOR_GIT_FAR="\033[34m";
 
-. /Users/gabadie/projects/.prompt.sh;
+. ~/git/github.utils/bash_prompt.sh
+
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
